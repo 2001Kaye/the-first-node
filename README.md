@@ -33,5 +33,12 @@
 - component 사용
 
 - 명령어
-  - npm start
-  - npm run build
+  - npx create-react-app 폴더명: 생성
+  - npm start: 실행
+  - powershell에서 오류 해결하는 법
+    - 관리자 권한으로 실행
+    - `executionpolicy`
+    - `set-executionpolicy remotesigned`
+- `index.html`
+  - `html:5`: 이걸로 쉽게 만들 수 있음
+  - `<div id=root />`: 여기가 index.js 에서 가져오는 지점

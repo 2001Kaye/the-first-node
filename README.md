@@ -101,6 +101,7 @@
      - 변수는 ${}로 사용
 2. Lambda Expression 사용
    - `function App() {}` -> `const App = () => {}`
+   - 화살표 함수 사용
 3. github.dev
    - `github.com/[아이디]/[repository이름]`
    - .com -> .dev

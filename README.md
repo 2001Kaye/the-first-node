@@ -6,6 +6,7 @@
     - [React Song List](#react-song-list)
   - [12주차](#12주차)
     - [React Counter](#react-counter)
+    - [React Song List 수정](#react-song-list-수정)
 
 ## 11주차
 
@@ -85,3 +86,22 @@
 4. 그 외
    - 파일 다운로드 후 -> npm install -> npm run dev
    - 또는 npm install && npm run dev
+
+### React Song List 수정
+
+[목표]
+
+- 업데이트를 해봅시다.
+
+1. 지난 시간에 복붙한 Container 함수를 props를 이용해서 중복을 제거한다.
+   - properties 전달
+   - JSX에서 JavaScript를 사용하려면 중괄호 사용
+   - Template Literal 사용
+     - {\` \`}: Back tick 사용 -> Tilde(물결표) 있는 곳
+     - 변수는 ${}로 사용
+2. Lambda Expression 사용
+   - `function App() {}` -> `const App = () => {}`
+3. github.dev
+   - `github.com/[아이디]/[repository이름]`
+   - .com -> .dev
+   - 웹 브라우저 주소창

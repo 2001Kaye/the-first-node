@@ -102,7 +102,10 @@
 2. Lambda Expression 사용
    - `function App() {}` -> `const App = () => {}`
    - 화살표 함수 사용
+   - 인자 하나이면 화살표 함수에서 괄호 생략 가능
 3. github.dev
    - `github.com/[아이디]/[repository이름]`
    - .com -> .dev
    - 웹 브라우저 주소창
+4. Container Component 파일을 분리
+   - 컴포넌트 불러오기 `import Container from "./Container";`

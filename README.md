@@ -109,3 +109,12 @@
    - 웹 브라우저 주소창
 4. Container Component 파일을 분리
    - 컴포넌트 불러오기 `import Container from "./Container";`
+5. Song array 사용
+   - props로 넘겨주는 편이 resuability측면에서 바람직하다(title)
+   - 호이스팅: 끌어 올리는 것
+   - map() 함수 안에 lambda expression 사용할 때 중괄호, 괄호를 유의하자
+     - 중괄호: return 필수
+     - 괄호: 바로 return
+   - warning: Each child in a list should have a unique "key" prop.
+     - key property 추가가 필요함. React DOM이 변경된 부분만 렌더링할 때 구분하기 위해 필요하기 때문임. 구분하지 않으면 전부 다 다 렌더링하기 때문에 성능면에서 좋지 않음
+     - 그러나 props.key로 읽을 수 없음

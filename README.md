@@ -118,3 +118,4 @@
    - warning: Each child in a list should have a unique "key" prop.
      - key property 추가가 필요함. React DOM이 변경된 부분만 렌더링할 때 구분하기 위해 필요하기 때문임. 구분하지 않으면 전부 다 다 렌더링하기 때문에 성능면에서 좋지 않음
      - 그러나 props.key로 읽을 수 없음
+   - &&: AND 기호 하나라도 0이면 그냥 0임을 이용해 하나가 참이면 뒤를 무조건 검사하려고 하는 속성으로 컴포넌트 출력 가능

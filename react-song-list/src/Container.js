@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { FaStar } from "react-icons/fa";
 
 const Container = (props) => {
   const [lyricsExpanded, setLyricsExpanded] = useState(false);
@@ -23,6 +24,11 @@ const Container = (props) => {
             {props.song.title} ({props.song.singer})
           </div>
         </a>
+        <div className="song-rating">
+          {[...Array(props.song.rating)].map((_, idx) => (
+            <FaStar key={idx} />
+          ))}
+        </div>
       </div>
       {props.song.lyrics && lyricsExpanded && (
         <pre className="song-lyrics" onClick={toggleLyrics}>
